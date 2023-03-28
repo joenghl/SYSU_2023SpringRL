@@ -16,7 +16,7 @@
 
 ```shell
 conda create -n 2023RL python=3.9
-conda activate 
+conda activate 2023RL
 ```
 
 **Option b. 使用 Python 工具 :**
