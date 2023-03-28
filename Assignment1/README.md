@@ -2,7 +2,7 @@
 
 本次实践作业将在以下环境进行：
 
-![mini_grid.png](https://github.com/joenghl/SYSU_2023SpringRL/blob/master/docs/images/mini_grid.png?raw=true #pic_center)
+![mini_grid.png](https://github.com/joenghl/SYSU_2023SpringRL/blob/master/docs/images/mini_grid.png?raw=true#pic_center)
 
 该环境由一个 6×6 网格组成，其中黄色圆圈为智能体出发点，黑色格子为无法通过的墙壁，若智能体向着墙壁方向移动，则会停留在原地，地图边界的移动同理。带有黄色边框的格子为终止状态，即若智能体行动至此状态则整个 episode 结束。红色和绿色表示当前该状态的奖励值，奖励越高则绿色越深，奖励越低则红色越深。
 
