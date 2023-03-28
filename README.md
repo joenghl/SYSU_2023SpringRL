@@ -36,6 +36,6 @@ cd SYSU_2023SpringRL
 #### 4. 安装依赖库
 
 ```shell
-python -m pip install numpy==0.10.0 gym==1.21.2
+python -m pip install numpy==1.21.2 gym==0.10.0
 ```
 
