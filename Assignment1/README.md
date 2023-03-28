@@ -18,7 +18,7 @@
 
 请从 `策略迭代` 或者 `价值迭代`  中选择一种方法实现，`Assignmen1/dp.py` 提供了一个基础的模板，在此基础上完成你的代码，模板中内容可以根据需要更改，但需要保证其是一个可运行的程序，运行结果需打印出迭代的次数 `t` ，最终收敛的 V 表 `v` ，以及使用 `env.update_r(v)` 后将 V 表的值同步至环境端后的渲染图形 (模板中已给出渲染方法)，输出格式不限制。
 
-渲染图形示例：
+随机策略下评估收敛渲染图示例：
 
 ![dp.png](https://github.com/joenghl/SYSU_2023SpringRL/blob/master/docs/images/dp.png?raw=true)
 
