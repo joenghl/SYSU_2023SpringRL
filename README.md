@@ -29,8 +29,8 @@ source 2023RL/bin/activate
 #### 3. 配置项目仓库
 
 ```shell
-git clone 
-cd 
+git clone https://github.com/joenghl/SYSU_2023SpringRL.git
+cd SYSU_2023SpringRL
 ```
 
 #### 4. 安装依赖库
