@@ -1,8 +1,6 @@
 # SYSU-2023SpringRL
 
-中山大学 2023 春季研究生强化学习课程，该课程仓库部分参考了 Stanford University 的强化学习课程资源和 Lizhi-sjtu 的 DRL 开源仓库。
-
-该仓库会随课程进度更新。
+中山大学 2023 春季研究生强化学习课程，该课程仓库部分参考了 Stanford University 的强化学习课程资源和 Lizhi-sjtu 的 DRL 开源仓库。该仓库会随课程进度更新。
 
 ## 作业环境
 
@@ -37,11 +35,7 @@ cd
 
 #### 4. 安装依赖库
 
-
-
-
-
-## 作业一：马尔可夫决策与表格型方法
-
-
+```shell
+python -m pip install numpy gym
+```
 

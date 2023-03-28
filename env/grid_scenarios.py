@@ -59,7 +59,7 @@ class MiniWorld(GridWorldEnv):
         super().__init__(u_size=60,
                          n_width=6,
                          n_height=6,
-                         default_reward=0,
+                         default_reward=-0.1,
                          default_type=0,
                          windy=False)
         self.start = (0, 5)
