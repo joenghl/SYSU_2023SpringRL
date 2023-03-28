@@ -73,7 +73,7 @@ class MiniWorld(GridWorldEnv):
 
     def update_r(self, values):
         """
-        This function is only used for rendering env when using dynamic programming method.
+        This function is used for rendering env when finally get a value table.
         """
         v_min = values.min()
         v_max = values.max()
