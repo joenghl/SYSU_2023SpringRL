@@ -1,5 +1,8 @@
 # 实践作业一：动态规划、蒙特卡洛与时序差分方法
 
+
+## 概述
+
 本次实践作业将在以下环境进行：
 
 ![mini_grid.png](https://github.com/joenghl/SYSU_2023SpringRL/blob/master/docs/images/mini_grid.png?raw=true)
@@ -11,6 +14,43 @@
 动作空间：4（`0-3` 这 4 个整数分别代表左、右、上、下）
 
 奖励函数：普通格子 -0.1，到达终点(s=9) +1.0，掉入陷阱(s=23) -1.0。
+
+## 环境配置
+
+整个项目使用 Python 语言，在配置环境前，推荐使用 `conda` 工具管理 Python 编程环境。
+
+#### 1. 安装 `conda` 工具 (推荐, 可选)
+
+推荐从 [Miniconda Official](https://docs.conda.io/en/latest/miniconda.html) 下载 `Miniconda` ，安装时勾选自动添加环境变量选项，若没有勾选则需要手动添加，其他选项默认即可。
+
+#### 2. 新建并激活用于此项目的虚拟环境 
+
+**Option a. 使用 `conda` :**
+
+```shell
+conda create -n 2023RL python=3.9
+conda activate 2023RL
+```
+
+**Option b. 使用 Python 工具 :**
+
+```shell
+python -m venv 2023RL
+source 2023RL/bin/activate
+```
+
+#### 3. 配置项目仓库
+
+```shell
+git clone https://github.com/joenghl/SYSU_2023SpringRL.git
+cd SYSU_2023SpringRL
+```
+
+#### 4. 安装依赖库
+
+```shell
+python -m pip install numpy==1.21.2 gym==0.10.0 pyglet==1.2.4
+```
 
 ## 任务一：动态规划方法
 
