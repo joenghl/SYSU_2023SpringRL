@@ -10,8 +10,6 @@
 
 本次作业在多智能体粒子环境中的 `simple_spread` 协作任务中进行。粒子环境是由 OpenAI 开发的专用于多智能体强化学习的仿真环境，包括一系列不同场景的子任务，如多智能体竞争、合作、通信等不同的任务场景。在 `simple_spread` 任务场景中，有 3 个 Landmark (黑色小圆) 和 3 个 Agent (紫色大圆)，如下图所示：
 
-![mpe_demo.png](https://github.com/joenghl/SYSU_2023SpringRL/blob/master/docs/images/mpe_demo.png?raw=true)
-
 <div align=center><img width = '300' height ='300' src ="https://github.com/joenghl/SYSU_2023SpringRL/blob/master/docs/images/mpe_demo.png?raw=true"/></div>
 
 在此场景中，3 个 Agent 需要学会相互协作去分别导航至 3 个 Landmark，并在此过程中避免相互碰撞。此任务为完全合作式任务，Agent 间仅有合作关系，不存在竞争关系。
