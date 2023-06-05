@@ -1,0 +1,3 @@
+[submodule "Assignment1/Assignment2/multiagent-particle-envs"]
+	path = Assignment1/Assignment2/multiagent-particle-envs
+	url = https://github.com/shariqiqbal2810/multiagent-particle-envs.git
