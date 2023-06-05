@@ -85,6 +85,7 @@ cd SYSU_2023SpringRL/Assignment2
 #### 4. 配置仿真环境 Multi-Agent Particle Environments (MPE)
 
 ```shell
+git clone https://github.com/shariqiqbal2810/multiagent-particle-envs.git
 cd multiagent-particle-envs
 pip install -e .
 ```
