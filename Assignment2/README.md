@@ -12,6 +12,8 @@
 
 ![mpe_demo.png](https://github.com/joenghl/SYSU_2023SpringRL/blob/master/docs/images/mpe_demo.png?raw=true)
 
+<div align=center><img width = '300' height ='300' src ="https://github.com/joenghl/SYSU_2023SpringRL/blob/master/docs/images/mpe_demo.png?raw=true"/></div>
+
 在此场景中，3 个 Agent 需要学会相互协作去分别导航至 3 个 Landmark，并在此过程中避免相互碰撞。此任务为完全合作式任务，Agent 间仅有合作关系，不存在竞争关系。
 
 ### 观测空间
