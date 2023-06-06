@@ -1,8 +1,6 @@
 import argparse
 import time
 import numpy as np
-from pathlib import Path
-from torch.autograd import Variable
 from utils.make_env import make_env
 
 # TODO: replace with your models

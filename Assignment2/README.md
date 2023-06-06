@@ -38,7 +38,7 @@ Agent 动作信息: [no_action, move_left, move_right, move_down, move_up]
 
 ### 奖励函数
 
-奖励值为计算每个 Landmark 到距离其最近的 Agent 的距离 * -1.0 并求和，此外，每次 Agent 间发生碰撞会得到 -1.0 的惩罚。具体代码可在 `multiagent-particle-envs/multiagent/scenarios/simple_spread` 中 `reward` 函数查看。
+奖励值为计算每个 Landmark 到距离其最近的 Agent 的距离 * -1.0 并求和，此外，每次 Agent 间发生碰撞会得到 -1.0 的惩罚。具体代码可在粒子环境源码仓库 `multiagent-particle-envs/multiagent/scenarios/simple_spread` 中 `reward` 函数查看。
 
 
 ## 环境配置
@@ -117,9 +117,7 @@ Assignment2
 │       │   submission.py
 │
 └───utils
-│   |   make_env.py  # 环境封装
-│   
-└───multiagent-particle-envs  # 粒子环境源码   
+    |   make_env.py  # 环境封装  
 ```
 
 作业目标即为使用多智能体强化学习算法训练一个 `agents` 提交样例，将训练好的网络模型**前向计算**部分打包为类似 `agents/random_network` 的文件夹 (需要包含 `submission.py` 文件)，在本地使用 `run_test.py` 测试文件自行测试通过 (在 `run_test.py` 中将模型替换为自己的模型)，且保证每步耗时不超过 10 ms (`run_test.py` 中有判别基准)。`run_test.py` 文件中已将需要替换的代码前加 `TODO` 注释和说明。
@@ -136,6 +134,8 @@ Assignment2
 
 具体分数和最终评估性能、代码规范、报告等相关。
 
+补充：这里的 `Reward` 为 `run_test.py` 文件中评估 100 局的平均回报，每步的回报为 3 个 Agents 回报的加和。
+
 ## 提交要求
 
 
@@ -151,7 +151,7 @@ Assignment2
 模型压缩包需上传至 FTP 服务器根目录下的 `研究生强化学习作业2_code` 文件夹，截止日期: 2023.7.16 23:59。
 
 ### 2. 实验报告压缩包
-将完整训练的代码、实验报告，以及自己的模型在 `run_test.py` 中测试的渲染录制一个 5~10 s 的视频，格式为 `.mp4`，打包为一个压缩包提交。
+将完整训练的代码、实验报告，以及自己的模型在 `run_test.py` 中测试的渲染录制一个 5~10 s 的视频，格式为 `.mp4`，打包为一个压缩包提交。渲染时可将 `run_test.py` 中的 `render()` 注释取消。
 
 命名规则：学号\_姓名拼音。若提交后需更新代码，请加后缀 \_v1, \_v2，以此类推。
 
