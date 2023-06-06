@@ -122,7 +122,7 @@ Assignment2
 └───multiagent-particle-envs  # 粒子环境源码   
 ```
 
-作业目标即为使用多智能体强化学习算法训练一个 `agents` 提交样例，将训练好的网络模型**前向计算**部分打包为类似 `agents/random_network` 的文件夹 (需要包含 `submission.py` 文件)，在本地使用 `run_test.py` 测试文件自行测试通过 (在 `run_test.py` 中将模型替换为自己的模型)，且保证每步耗时不超过 10 ms (`run_test.py` 中有判别基准)。
+作业目标即为使用多智能体强化学习算法训练一个 `agents` 提交样例，将训练好的网络模型**前向计算**部分打包为类似 `agents/random_network` 的文件夹 (需要包含 `submission.py` 文件)，在本地使用 `run_test.py` 测试文件自行测试通过 (在 `run_test.py` 中将模型替换为自己的模型)，且保证每步耗时不超过 10 ms (`run_test.py` 中有判别基准)。`run_test.py` 文件中已将需要替换的代码前加 `TODO` 注释和说明。
 
 注意：提交模型样例文件夹名字命名为 `学号_姓名拼音`，如 `22000000_zhangsan`。需要保证文件夹内有 `submission.py` 文件，内含有 `Agents` 类，`Agents` 类中必须有 `act` 方法。这样才可以在 `run_test.py` 中测试通过。
 
