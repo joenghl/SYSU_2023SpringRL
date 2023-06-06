@@ -8,9 +8,6 @@ from agents.random.submission import Agents as RandomSampleAgents
 from agents.random_network.submission import Agents as RandomNetworkAgents
 
 
-N_AGENTS = 3
-
-
 def run(config):
     env = make_env(config.env_id, discrete_action=True)
 
